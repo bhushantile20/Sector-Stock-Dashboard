@@ -2,57 +2,6 @@
 
 A full-stack, real-time Indian stock market analytics dashboard built with **Django + React**.
 
----
-
-## 🗂 Project Structure
-
-```
-sector_stock_dashboard/
-├── backend/                        # Django backend
-│   ├── analytics/
-│   │   ├── services/
-│   │   │   ├── __init__.py
-│   │   │   ├── fetch_data.py       # yfinance data fetching
-│   │   │   ├── calculations.py     # RSI, MA, Volatility
-│   │   │   ├── graph_generator.py  # Matplotlib/mplfinance charts
-│   │   │   └── sector_data.py      # Static sector/company map
-│   │   ├── __init__.py
-│   │   ├── apps.py
-│   │   ├── models.py
-│   │   ├── urls.py
-│   │   └── views.py
-│   ├── sector_stock_dashboard/
-│   │   ├── __init__.py
-│   │   ├── settings.py
-│   │   ├── urls.py
-│   │   └── wsgi.py
-│   ├── media/                      # Auto-generated chart images
-│   ├── manage.py
-│   └── requirements.txt
-│
-└── frontend/                       # React frontend
-    ├── src/
-    │   ├── api/
-    │   │   └── stockApi.js
-    │   ├── components/
-    │   │   ├── Dropdown.jsx
-    │   │   ├── GraphGrid.jsx
-    │   │   ├── KPICard.jsx
-    │   │   ├── LoadingSpinner.jsx
-    │   │   └── RSIGauge.jsx
-    │   ├── App.jsx
-    │   ├── index.css
-    │   └── main.jsx
-    ├── index.html
-    ├── package.json
-    ├── postcss.config.js
-    ├── tailwind.config.js
-    └── vite.config.js
-```
-
----
-
-## ⚡ Quick Setup
 
 ### Prerequisites
 - Python 3.10+
@@ -107,13 +56,13 @@ Frontend runs at: **http://localhost:5173**
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 1. Open **http://localhost:5173** in your browser
 2. Select a **Sector** (IT, Banking, Pharma, FMCG, Energy, Auto)
 3. Select a **Company** from the dropdown
 4. Select a **Period** (1 Month to 5 Years)
-5. Click **⚡ Analyze**
+5. Click ** Analyze**
 6. View real-time KPIs, technical indicators, and 5 interactive charts
 
 ---
