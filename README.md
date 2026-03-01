@@ -173,6 +173,4 @@ Charts are saved to `backend/media/<SYMBOL>/<PERIOD>/` and served statically.
 
 **Frontend:** React 18 · Vite · Tailwind CSS · Axios · Recharts
 
----
 
-> ⚠️ **Disclaimer:** This dashboard is for educational/informational purposes only. Not financial advice.
